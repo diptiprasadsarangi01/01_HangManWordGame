@@ -335,6 +335,35 @@ hr {
     color: #fe5152;
   }
 
+
+  footer{
+   background-color: #06080cdf;
+   color: #fff;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 5px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   min-height: 2vh;
+   border-top:0.5px solid #fdb686;
+  }
+
+  footer a:hover{
+    text-decoration: underline;
+  }
+
+
+  @media screen and (max-height: 700px) {
+    footer{
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 500px) {
     #letter-container {
       grid-template-columns: repeat(5, 30px);
